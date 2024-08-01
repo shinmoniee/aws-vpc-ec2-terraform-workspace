@@ -28,6 +28,7 @@ Create a Terraform configuration with the following specifications:
 ├── variables.tf    # Input variable declarations
 ├── outputs.tf      # Output value declarations
 ├── locals.tf       # Local value definitions
+├── terraform.tf    # Provider and backend configurations
 ├── uat.tfvars      # UAT environment-specific variables
 ├── staging.tfvars  # Staging environment-specific variables
 └── prod.tfvars     # Production environment-specific variables
